@@ -1,7 +1,6 @@
 # include <stdio.h>
 
-
-/*冒泡排序*/
+/*冒泡排序 每一趟排序把一个最大的数放到末尾*/
 void BubbleSort(int Arr[], int N)
 {
 	int i, j;
