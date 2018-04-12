@@ -1,6 +1,6 @@
 /*
- *Single LinkedList Dmo
- *Without head node
+ *Single LinkedList Without head node Dmo
+ *
  */
 
 # include<stdio.h>
@@ -14,8 +14,8 @@ typedef struct LINKEDLISTNODE
 
 int InsertLinkedList(Node **plink, int newValue);  /*有序链表插入节点*/
 int DeleteLinkedList(Node **plink, int newValue);  /*删除指定值的节点*/
-void FreeLinkedList(Node **plink);                  /*删除所有节点释放内存*/
-void ReverseLinkedList(Node **plink);               /*反转链表*/
+void FreeLinkedList(Node **plink);                 /*删除所有节点释放内存*/
+void ReverseLinkedList(Node **plink);              /*反转链表*/
 void printLinkedList(Node **plink);                /*打印链表*/
  
 
