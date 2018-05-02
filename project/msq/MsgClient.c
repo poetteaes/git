@@ -11,19 +11,7 @@
 # include <sys/ipc.h>
 # include <sys/msg.h>
 # include <sys/types.h>
-# include "shm.h"
-
-
-
-
-# include <stdio.h>
-# include <string.h>
-# include <errno.h>
-# include <unistd.h>
-# include <sys/ipc.h>
-# include <sys/msg.h>
-# include <sys/types.h>
-# include "shm.h"
+# include "msq.h"
 
 int main(void)
 {
