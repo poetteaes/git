@@ -5,7 +5,7 @@ all: MsgServer MsgClient
 
 
 %.o:%.c
-	$(CC) $(CFLAG) -c $*.c shm.h
+	$(CC) $(CFLAG) -c $*.c msq.h
 	
 MsgServer:MsgServer.o
 		$(CC) -o $@ $<
