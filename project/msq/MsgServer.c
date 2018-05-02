@@ -12,7 +12,7 @@
 # include <sys/ipc.h>
 # include <sys/msg.h>
 # include <sys/types.h>
-# include "shm.h"
+# include "msq.h"
 
 int main(void)
 {
