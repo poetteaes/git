@@ -1,5 +1,5 @@
 *.o
 MsgServer
 MsgClient
-shm.h.gch
+msq.h.gch
 
