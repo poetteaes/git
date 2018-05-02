@@ -1,5 +1,5 @@
 /**************************************
- * MQ Server. Consumer msg.
+ * MQ Client. Consumer msg.
  * created by CAO Fei
  * date: 2018-04-29
  *************************************/
