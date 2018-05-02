@@ -1,5 +1,0 @@
-*.o
-MsgServer
-MsgClient
-shm.h.gch
-
