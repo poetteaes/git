@@ -21,14 +21,14 @@ int main(void)
 	Msg serverMsg;
 	
 	/*msgget*/
-	msqid = msgget((key_t)SHM_KEY, 0660|IPC_CREAT|IPC_EXCL);
+	msqid = msgget((key_t)MSQ_KEY, 0660|IPC_CREAT|IPC_EXCL);
 	if( msqid == -1)
 	{
 		if(errno == EEXIST)
 		{
 			/*Message queue has aleardy existed */
 			printf("msgget() warning: %s\n", strerror(errno));
-			msqid = msgget((key_t)SHM_KEY, 0660|IPC_CREAT); /*access the mq*/
+			msqid = msgget((key_t)MSQ_KEY, 0660|IPC_CREAT); /*access the mq*/
 			if(msqid == -1)
 			{
 				printf("msgget() error: %s\n", strerror(errno));

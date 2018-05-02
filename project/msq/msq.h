@@ -3,7 +3,7 @@
 
 
 # define MAX_MSG_LEN 1024
-# define SHM_KEY 21012
+# define MSQ_KEY 21012
 
 typedef struct MSGQUEUE
 {
