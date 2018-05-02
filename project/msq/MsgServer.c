@@ -1,5 +1,5 @@
 /**************************************
- * MQ Client. Produce msg
+ * MQ Server. Produce msg
  * created by CAO Fei
  * date: 2018-04-29
  *************************************/
