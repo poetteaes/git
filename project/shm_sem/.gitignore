@@ -1,0 +1,5 @@
+*.o
+server
+client
+shm_sem.h.gch
+
